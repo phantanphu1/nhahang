@@ -15,8 +15,6 @@ body {
     font-size: 62.5%;
     font-size: 10px;
 }
-/*-- Inspiration taken from abdo steif -->
-/* --> https://codepen.io/abdosteif/pen/bRoyMb?editors=1100*/
 
 /* Navbar section */
 
@@ -68,7 +66,7 @@ body {
 
 .nav div.main_list ul li a {
     text-decoration: none;
-    color: #fff;
+    color: rgb(162, 202, 16);
     line-height: 65px;
     font-size: 1.5rem;
 }
@@ -82,7 +80,7 @@ body {
 
 .home {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     background-image: url(https://thietkekhainguyen.com/wp-content/uploads/2020/06/menu-nha-hang-sushi.jpg);
     background-position: center top;
   background-size:cover;
@@ -378,4 +376,38 @@ body {
     font-size: 35px;
     text-decoration: none;
 }
-
+.centen{
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    /* height: 30px; */
+    /* background-color: #00E676; */
+}
+.chu{
+  margin-top: 30px;
+    margin-left: 50px;
+    padding: 10px 10%;
+}
+.centen a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.anh{
+    width: 100%;
+    display: flex;
+}
+.chulon a{
+    color: black;
+}
+.chumho a{
+    color:white;
+    font-size: 10px;
+}
+.centen_giua{
+    width: 100%;
+    background-color: turquoise;
+}
+.anh2 img{
+    width: 550px;
+    margin-left: 800px;
+}
