@@ -56,6 +56,7 @@
                 }
             });
         </script>
+
         <script src="baitap.js"></script>
         <div class="nhahang">
             <ul>
@@ -71,29 +72,41 @@
                     <ul>
                         <li><a
                                 href="http://nhahangruavang.com.vn/vi/nha-hang-vua-lau-0974-83-84-86/200/nha-hang-vua-lau-rua-vang-hotline-0974-83-84-86">NHÀ
-                                HÀNG VUA LẨU RÙA VÀNG </a></li>
+                                HÀNG VUA LẨU RÙA VÀNG - HOLINE 0928374</a></li>
+
                     </ul>
                 </div>
-                <div class="chunhho">
+                <div class="chunho">
                     <ul>
-                        <li><a href="">Đến với nhà hàng Vua Lẩu Buffet Rùa Vàng thực
+                        <li><a href="" id="name">Đến với nhà hàng Vua Lẩu Buffet Rùa Vàng thực
                                 khách được trải nghiệm gần 100 món ăn đa dạng trên thực đơn,
-                                từ món khai vị, đồ nóng đến món nướng, hải sản, thủy sản,
-                                gia cầm tươi sống ăn lẩu, bánh trái và hoa quả tráng miệng
-                                theo mùa...
+                                từ món khai vị,
                             </a></li>
                     </ul>
                 </div>
-                <div class="btn">xem thêm</div>
+                <div class="btn" id="xem"><button>xem thêm</button></div>
             </div>
 
         </div>
         <div class="centen_giua">
             <div class="anh2">
                 <img src="http://nhahangruavang.com.vn/files/files/31956048_1815763331778307_1734524380735602688_n(1).jpg"
-                    alt="">
+                alt="">
             </div>
         </div>
+        <script>
+            var name2 = document.getElementById("name");
+            var button = document.getElementById("xem");
+            button.onclick = function () {
+                if (button.classList.toggle("name")) {
+                    name2.innerHTML = "Đến với nhà hàng Vua Lẩu Buffet Rùa Vàng thực khách được trải nghiệm gần 100 món ăn đa dạng trên thực đơn,từ món khai vị, đồ nóng đến món nướng, hải sản, thủy sản,gia cầm tươi sống ăn lẩu, bánh trái và hoa quả tráng miệng theo mùa...";
+                    button.innerHTML = "ẩn bớt";
+                } else {
+                    name2.innerHTML = "Đến với nhà hàng Vua Lẩu Buffet Rùa Vàng thực khách được trải nghiệm gần 100 món ăn đa dạng trên thực đơn,từ món khai vị, ";
+                    button.innerHTML = "xem thêm";
+                }
+            }
+        </script>
     </div>
 </body>
 

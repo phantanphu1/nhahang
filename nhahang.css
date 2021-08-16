@@ -44,8 +44,12 @@ body {
 }
 
 .nav div.main_list {
+    margin-right: 10px;
+    width: 700px;
     height: 65px;
     float: right;
+    /* background-color: aqua; */
+    
 }
 
 .nav div.main_list ul {
@@ -84,6 +88,7 @@ body {
     background-image: url(https://thietkekhainguyen.com/wp-content/uploads/2020/06/menu-nha-hang-sushi.jpg);
     background-position: center top;
   background-size:cover;
+  background-color: #00E676;
 }
 
 .navTrigger {
@@ -383,10 +388,17 @@ body {
     /* height: 30px; */
     /* background-color: #00E676; */
 }
+.chulon{
+    width: 450px;
+    /* background-color: rgb(230, 157, 0); */
+    margin-left: 10px;
+}
 .chu{
-  margin-top: 30px;
-    margin-left: 50px;
-    padding: 10px 10%;
+    width: 200px;
+    /* background-color: black; */
+  /* margin-top: 30px; */
+    /* margin-left: 10px; */
+    padding: 1px 22%;
 }
 .centen a{
     font-size: 30px;
@@ -397,24 +409,27 @@ body {
     display: flex;
 }
 .chulon a{
-    color: black;
+    color: rgb(192, 33, 33);
 }
 .btn{
-background-color: #00E676;
-width: 100%;
+/* background-color: #00E676; */
+width: 200px;
+font-size: 20px;
+margin: 20px 40%;
 }
-.btn a{
-    font-size: 250px;
+.chunho{
+    /* background-color: black; */
+    width: 450px;
 }
-.chumho a{
-    color:white;
-    /* font-size: 10px; */
+.chunho a{
+    color:rgb(20, 2, 2);
+    font-size: 20px;
 }
 .centen_giua{
-    width: 100%;
-    background-color: turquoise;
+    /* width: 100%; */
+    background-color: rgb(224, 64, 112);
 }
 .anh2 img{
     width: 550px;
-    margin-left: 800px;
+    margin-left: 790px;
 }
