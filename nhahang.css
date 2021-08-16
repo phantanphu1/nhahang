@@ -372,6 +372,8 @@ body {
   }
 }
 .nhahang{
+    text-align: center;
+
     width: 280px;
     /* background-color: aqua; */
     padding: 1px 1%;
@@ -382,54 +384,80 @@ body {
     text-decoration: none;
 }
 .centen{
-    padding: 10px;
     display: flex;
-    width: 100%;
-    /* height: 30px; */
-    /* background-color: #00E676; */
+    width: 90%;
 }
 .chulon{
+    margin: auto;
+    /* background-color: aquamarine; */
     width: 450px;
-    /* background-color: rgb(230, 157, 0); */
     margin-left: 10px;
+    
 }
 .chu{
-    width: 200px;
-    /* background-color: black; */
-  /* margin-top: 30px; */
-    /* margin-left: 10px; */
-    padding: 1px 22%;
+    /* background-color: #00E676; */
+    margin:auto;
+    width: 50%;
+    margin-left: 150px;
+    border: 2px solid #000;
+    /* padding: 1px 22%; */
+}
+.chu ul{
+    list-style-type: none;
+    
 }
 .centen a{
     font-size: 30px;
     text-decoration: none;
+    
 }
 .anh{
-    width: 100%;
+    width: 40%;
     display: flex;
+
 }
 .chulon a{
     color: rgb(192, 33, 33);
+    font-size: 20px;
+    text-decoration: none;
 }
-.btn{
-/* background-color: #00E676; */
-width: 200px;
-font-size: 20px;
-margin: 20px 40%;
-}
-.chunho{
-    /* background-color: black; */
+
+/* .chunho{
     width: 450px;
-}
+} */
 .chunho a{
     color:rgb(20, 2, 2);
     font-size: 20px;
+    text-decoration: none;
 }
 .centen_giua{
-    /* width: 100%; */
+    display: flex;
+    width: 100%;
     background-color: rgb(224, 64, 112);
 }
 .anh2 img{
     width: 550px;
-    margin-left: 790px;
+    /* float: right; */
+    margin-left: 500px;
 }
+
+.chu button{
+    margin-left:230px ;
+    border:  2px solid #fff;
+    padding: 10px 25px;
+    background: #48dbfb;
+    cursor: pointer;
+}
+.chu button:hover{
+    background: #3498db;
+}
+.video_test{
+    /* float: left; */
+    width: 250px;
+    /* height: 500px; */
+    /* background: firebrick; */
+}
+.video_test video{
+    width: 100%;
+}
+
