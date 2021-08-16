@@ -130,7 +130,7 @@ body {
         left: 0;
         bottom: 0;
         background-color: #111;
-        /*same background color of navbar*/
+        /* same background color of navbar */
         background-position: center top;
     }
     .nav div.main_list ul li {
@@ -399,9 +399,16 @@ body {
 .chulon a{
     color: black;
 }
+.btn{
+background-color: #00E676;
+width: 100%;
+}
+.btn a{
+    font-size: 250px;
+}
 .chumho a{
     color:white;
-    font-size: 10px;
+    /* font-size: 10px; */
 }
 .centen_giua{
     width: 100%;
